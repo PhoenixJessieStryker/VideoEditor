@@ -1,0 +1,50 @@
+<div class="columns">
+    <div class="column is-4 is-offset-4">
+
+      <!-- CARD ITEM -->
+      <div class="card">
+        <!-- MEDIA-HEADER -->
+        <div class="header">
+          <div class="media">
+            <!-- LEFT-SIDE OF MEDIA HEADER -->
+            <div class="media-left">
+              <figure class="image is-48x48">
+                <a href="/profile/{{artist_id}}"><img src="{{avatar_url}}"></a>
+                <!-- USER AVATAR -->
+              </figure>
+            </div>
+            <!-- RIGHT-SIDE OF MEDIA HEADER -->
+            <div class="media-content mediaMargin">
+              <a href="/profile/{{artist_id}}"><p class="title is-4">{{title}}</p></a>
+              <!-- NAME -->
+              <a href="/profile/{{artist_id}}"><p class="subtitle is-6">{{username}}</p></a>
+              <!-- USERNAME -->
+            </div>
+          </div>
+
+        </div>
+
+        <!-- IMAGE -->
+        <div class="card-image">
+          <figure class="image is-4by3">
+            <a href="/image/{{image_id}}"><img src="{{url}}"></a>
+            <!-- IMAGE SOURCE -->
+          </figure>
+        </div>
+        <!-- CONTENT UNDER THE IMAGE -->
+        <div class="card-content">
+          <div class="content">
+            <p>
+              {{description}}
+            </p>
+            <!-- STRETCH GOAL: PICTURE DESCRIPTION HERE? -->
+            <hr>
+            <em>{{created_at}}</em>
+            <!-- TIMESTAMP -->
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>

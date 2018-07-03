@@ -1,0 +1,42 @@
+<div class="box">
+                        <figure class="avatar is-128x128">
+                            <img src="https://tinyurl.com/y78pnsny">
+                        </figure>
+
+                        <!-- FORM -->
+                        <form action="" method="post">
+                            <!-- POST METHOD / ACTION URL -->
+
+                            <!-- EMAIL -->
+                            <div class="field">
+                                <div class="control">
+                                    <input name="email" class="input is-medium" type="email" placeholder="Email">
+                                </div>
+                            </div>
+
+                            <!-- NAME -->
+                            <div class="field">
+                                <div class="control">
+                                    <input name="name" class="input is-medium" type="password" placeholder="Name">
+                                </div>
+                            </div>
+
+                            <!-- USERNAME -->
+                            <div class="field">
+                                <div class="control">
+                                    <input name="username" class="input is-medium" placeholder="Username">
+                                </div>
+                            </div>
+
+                            <!-- AVATAR -->
+                            <div class="field">
+                                <div class="control">
+                                    <input name="avatar" class="input is-medium" placeholder="Avatar">
+                                </div>
+                            </div>
+
+                            <input class="button is-info is-medium is-fullwidth" type="submit" value="Sign-up">
+
+                        </form>
+
+                    </div>
